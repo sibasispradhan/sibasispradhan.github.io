@@ -1,0 +1,86 @@
+<!-- experience.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Experience - Sibasis Pradhan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Professional Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="certtifications.html">Certifications</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Professional Experience</h1>
+        <h2>POC/ Dissertation at 3S Logics Private Limited/ MTech DSE</h2>
+        <p><strong>Dec 2023 - May 2024</strong><br>
+            BITS Pilani (WILP)<br>
+            Title: Attack Detection in IoT & IIoT Device Networks Using Machine Learning<br>
+            Programming Languages/libraries: Python, Flask, Streamlit, MLOps, MLFlow, DVC etc<br>
+            Databases: MySQL, Kaggle dataset<br>
+            Cloud Platforms: Deploying the application on AWS using Git and GitHub for CI/CD processes.
+            <!-- Orchestrated the deployment of containerized applications using Docker, ensuring consistent performance and scalability across different environments. -->
+            <!-- Implemented MLFlow and established MLOps pipeline to streamline the machine learning lifecycle, from experimentation to production deployment, enhancing model management and reproducibility. -->
+        </p>
+
+        <h2>Team Leader (Product Development) at 3S Logics Private Limited</h2>
+        <p><strong>Jan 2023 - Present</strong><br>
+            Gurugram, India<br>
+            Programming Languages: React, Node.js, WPF .Net Core, API – Microservices, Python, Flask, Steamlit<br>
+            Databases: MySQL<br>
+            Cloud Platforms: AWS for managing data pipelines (bitbucket) and deploying microservices & applications Application: BizNext Beyond ERP (A Complete Solutions)<br>
+            <!-- Implemented data analytics features to provide insights into business processes and performance. -->
+            <!-- Designed and implemented data processing pipelines to handle big volumes of data effectively. -->
+            <!-- Collaborated with stakeholders to understand requirements and translate them into actionable insights. -->
+            <!-- AWS services such as Amazon EC2, Amazon S3, and Amazon ECR. -->
+            <!-- Internal Projects: -->
+            <!-- Developed an MCQ chatbot for FAQ using Langchain(ChatOpenAI) as the first-line support for end-users, improving customer service efficiency and response time. -->
+            <!-- Spearheaded the integration of Text-To-SQL-Generative-AI using Hugging Face with the Gemini API, enabling natural language querying of databases within the application, enhancing user experience and accessibility of data. -->
+        </p>
+
+        <h2>Team Lead/ Tech Lead/ CTO at Sahaj Infotech Private Limited</h2>
+        <p><strong>October 2010 - December 2022</strong><br>
+            New Delhi, India<br>
+            Programming Languages: ASP.Net MVC 5, Web API, React, WCF, C#, VB.Net, Python, Flask<br>
+            Databases: Microsoft SQL Server, Microsoft Access, MySQL.<br>
+            Cloud Platforms: Spectra, Azure & GCP for managing data pipelines and deploying Applications o Sahaj HRMS (Online HRMS Solutions) o KPMG Payroll Suite Solutions o Sahaj Accounting (A Complete Accounting Solutions) o Sahaj Payroll (A Complete Payroll Solutions) o Sahaj School ERP Solutions Internal Projects: #ShaktiBot, an intelligent chatbot powered by the OpenAI API, to develop coding skills with the help of GPT, start by engaging in coding challenges, reading relevant documentation, experimenting with code to provide personalized support and streamline interactions to enhance skills within our internal team.<br>
+        </p>
+
+        <h2>Senior Software Developer at Digisoft IT Solutions Private Limited</h2>
+        <p><strong>January 2008 - September 2010</strong><br>
+            New Delhi, India<br>
+            Programming Languages: VB6.0, VB.Net<br>
+            Database: Microsoft SQL Server, Microsoft Access<br>
+            <!-- VyaparDarpan (A Multi-Level Network Marketing Solutions) o Ezee-Bill (A Complete Billing with stock management Solutions) -->
+        </p>
+        <!-- Interactive feature -->
+        <button id="showMoreButton">Show More</button>
+        <div id="additionalDetails" style="display: none;">
+            <p>
+                During my tenure, I collaborated with cross-functional teams to optimize model deployment processes.
+                Additionally, I led workshops on machine learning best practices and contributed to open-source projects.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Show additional details when the button is clicked
+        const showMoreButton = document.getElementById('showMoreButton');
+        const additionalDetails = document.getElementById('additionalDetails');
+
+        showMoreButton.addEventListener('click', () => {
+            additionalDetails.style.display = 'block';
+            showMoreButton.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

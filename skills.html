@@ -1,0 +1,78 @@
+<!-- skills.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Sibasis Pradhan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Professional Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="certtifications.html">Certifications</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Skills</h1>
+        <p>
+            Proficient in the following technologies and tools:
+        </p>
+        <ul>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Streamlit</li>
+            <li>MLOps</li>
+            <li>MIFlow</li>
+            <li>DVC</li>
+            <li>MySQL</li>
+            <li>Kaggle datasets</li>
+        </ul>
+        <p>
+            Skills:
+            Data Analysis,
+            Statistical Modeling,
+            Machine Learning Algorithms,
+            Predictive Modeling,
+            Data Visualization,
+            Feature Engineering,
+            Model Evaluation and Validation,
+            Data Integration,
+            Hypothesis Testing,
+            A/B Testing,
+            Problem-Solving,
+            Data Ethics and Privacy,
+            DB Management (SQL, NoSQL),
+            Big Data Processing (Hadoop, Spark),
+            Version Control (Git),
+            Cloud Computing (AWS, GCP, Azure)
+        </p>
+
+        <!-- Interactive feature with fade-in animation -->
+        <button id="showMoreButton">Show More</button>
+        <div id="additionalDetails">
+            <p>
+                I have hands-on experience with deploying applications on AWS, managing data pipelines, and ensuring scalability across different environments.
+                Additionally, I've implemented MLOps pipelines to streamline the machine learning lifecycle, enhancing model management and reproducibility.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Show additional details with fade-in animation
+        const showMoreButton = document.getElementById('showMoreButton');
+        const additionalDetails = document.getElementById('additionalDetails');
+
+        showMoreButton.addEventListener('click', () => {
+            additionalDetails.style.opacity = '1';
+            showMoreButton.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

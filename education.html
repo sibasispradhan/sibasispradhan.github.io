@@ -1,0 +1,71 @@
+<!-- education.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Sibasis Pradhan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Professional Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="certtifications.html">Certifications</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Education</h1>
+
+        <h2>Master of Technology (MTech) in Data Science Engineering</h2>
+        <p>
+            <strong>BITS Pilani (Work Integrated Learning Programmes)</strong><br>
+            May 2024<br>
+            - Skilled in Python, Machine Learning (ML), Deep Learning (DL), and Natural Language Processing (NLP).<br>
+            - Cloud Platforms: Spectra, Azure & GCP for managing data pipelines and deploying applications.
+        </p>
+
+        <h2>Master of Business Administration (IT)</h2>
+        <p>
+            <strong>SMU - New Delhi</strong><br>
+            December 2011
+        </p>
+
+        <h2>Master of Computer Application (MCA)</h2>
+        <p>
+            <strong>MDU - Rohtak</strong><br>
+            July 2007
+        </p>
+
+        <h2>Bachelor in Science (Physics)</h2>
+        <p>
+            <strong>F.M.(A) College Balasore, Odisha</strong><br>
+            April 2004
+        </p>
+        <!-- Interactive feature with fade-in animation -->
+        <button id="showMoreButton">Show More</button>
+        <div id="additionalDetails">
+            <p>
+                My coursework included advanced topics in data science, statistical modeling, and cloud computing.
+                I actively participated in research projects related to AI ethics and privacy.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Show additional details with fade-in animation
+        const showMoreButton = document.getElementById('showMoreButton');
+        const additionalDetails = document.getElementById('additionalDetails');
+
+        showMoreButton.addEventListener('click', () => {
+            additionalDetails.style.opacity = '1';
+            showMoreButton.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
