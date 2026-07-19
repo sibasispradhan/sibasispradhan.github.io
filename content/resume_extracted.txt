@@ -1,0 +1,419 @@
+SIBASIS PRADHAN
+
+Full Stack Tech Lead | Enterprise Solution Architect | AI & ERP Integration Specialist
+
+📍 New Delhi, India 📞 +91 9350490808 ✉️ sibasis.pr@gmail.com
+🔗 https://www.linkedin.com/in/sibasispradhan
+
+PROFESSIONAL SUMMARY
+
+Results-driven Full Stack Tech Lead with 18+ years of experience architecting, designing, and delivering enterprise-grade software solutions across Artificial Intelligence, ERP, Finance, Retail, Manufacturing, Healthcare, HRMS, Supply Chain, and Cloud ecosystems.
+
+Proven expertise in leading high-performing engineering teams while remaining hands-on in enterprise architecture, backend engineering, frontend development, cloud-native application development, DevOps, AI integration, and digital transformation initiatives.
+
+Extensive experience building scalable enterprise applications using Python (FastAPI, Flask), React.js, Next.js, Node.js, ASP.NET Core, ASP.NET MVC, Microservices, PostgreSQL, MySQL, SQL Server, MongoDB, AWS, Microsoft Azure, and Google Cloud Platform.
+
+Successfully designed and delivered enterprise solutions, SAP, ERPNext, GST, and Microsoft Dynamics 365 Business Central integrations for leading organizations including Nykaa, FabIndia, Apparel Group, PeopleStrong, Philips, KPMG, KARL STORZ, Halonix, ASG Eye Hospital, Smartivity, EazyDiner, Lenskart, Birla Century, and SRM Enterprises.
+
+Currently leading the architecture and engineering of an AI-powered bookkeeping platform, leveraging Generative AI, LLM-powered workflows, cloud-native microservices, and intelligent financial automation to transform enterprise accounting operations.
+
+Recognized for combining strategic technology leadership with strong hands-on engineering expertise to deliver scalable, secure, resilient, and business-driven enterprise software solutions.
+
+CAREER SNAPSHOT
+
+ENTERPRISE CUSTOMER PORTFOLIO
+
+CORE COMPETENCIES
+
+Leadership & Architecture
+
+Enterprise Architecture • Solution Architecture • Technical Leadership • Engineering Management • Product Engineering • Agile Delivery • Team Leadership • Technical Mentoring • Stakeholder Management • Digital Transformation • System Design • Software Architecture
+
+Full Stack Engineering
+
+Python • FastAPI • Flask • ASP.NET Core • ASP.NET MVC • Node.js • React.js • Next.js • TypeScript • JavaScript • HTML5 • CSS3 • Bootstrap • Tailwind CSS • REST APIs • Microservices
+
+Enterprise Integration
+
+SAP OData • SAP REST APIs • SAP IDoc • SAP Business One • ERPNext • Middleware Development • Financial Integration • Inventory Management • Procurement Automation • Accounting Automation • Business Process Automation
+
+Cloud, AI & DevOps
+
+AWS • Microsoft Azure • Google Cloud Platform • PostgreSQL • MySQL • SQL Server • MongoDB • Git • Bitbucket • GitHub • CI/CD • Jira • IIS • Generative AI • LLM Integration • Machine Learning • Deep Learning • PyTorch • TensorFlow
+
+TECHNICAL SKILLS
+
+PROFESSIONAL EXPERIENCE
+
+Full Stack Tech Lead | Solution Architect
+
+Rivergo Automation Private Limited (Febi.ai) | Gurugram, India
+
+September 2024 – Present
+
+Role Overview
+
+Leading the architecture, design, and development of an AI-powered bookkeeping and financial automation platform, driving end-to-end engineering across backend services, frontend applications, enterprise integrations, cloud infrastructure, and AI-enabled workflows. Operating in a player-coach model, balancing strategic solution architecture with hands-on engineering while mentoring developers and establishing engineering best practices.
+
+Key Responsibilities
+
+Architect and develop a cloud-native AI-powered bookkeeping platform that automates accounting, taxation, reconciliation, and financial reporting for enterprise customers.
+
+Design scalable microservices using Python (FastAPI) and Node.js, exposing secure RESTful APIs for enterprise financial transactions and integrations.
+
+Build responsive web applications using React.js, Next.js, and TypeScript, delivering modern user experiences with real-time dashboards and financial analytics.
+
+Design secure multi-tenant architecture supporting multiple enterprise customers with high availability, scalability, and data isolation.
+
+Lead AI-assisted bookkeeping workflows integrating intelligent document processing, ledger automation, tax calculations, and financial analytics.
+
+Drive software architecture decisions, coding standards, design reviews, sprint planning, and technical mentoring across engineering teams.
+
+Establish CI/CD pipelines, Git workflows, and Agile delivery practices using Git, Bitbucket, and Jira.
+
+Optimize backend performance, API response times, and database design to support enterprise-scale workloads.
+
+Collaborate with product owners, business stakeholders, and cross-functional teams to transform business requirements into scalable technical solutions.
+
+Achievements
+
+AI-powered bookkeeping engine
+
+Multi-tenant SaaS architecture
+
+Financial analytics dashboards
+
+OCR/document processing
+
+Prompt engineering/LLM integration
+
+Role-based access control
+
+API security
+
+Performance optimization
+
+Cloud deployment strategy
+
+Enterprise GST, SAP & ERP Integration
+
+Designed and implemented enterprise-grade integration frameworks connecting the AI platform with GST, SAP and ERPNext ecosystems, enabling seamless synchronization of finance, inventory, procurement, manufacturing, and accounting data.
+
+Integration Expertise
+
+GST Portal • SAP REST APIs • MS 365 BC • ERPNext REST APIs • Financial Ledger Synchronization • Purchase Order Integration • Sales Order Integration • Inventory Synchronization • Customer & Vendor Master Synchronization • Automated Journal Posting • Real-time Accounting Synchronization
+
+Technology Stack
+
+Python • FastAPI • Node.js • React.js • Next.js • PostgreSQL • MySQL • MongoDB • AWS • Git • Bitbucket • Jira • SAP • ERPNext • REST APIs • Generative AI • LLM Workflows
+
+Team Leader – Product Development
+
+3S Logics Private Limited | Gurugram, India
+
+January 2023 – August 2024
+
+Role Overview
+
+Led enterprise product engineering initiatives focused on GST Integration, BizNext ERP Development, enterprise application modernization, and digital transformation. Responsible for solution architecture, technical leadership, customer interactions, project delivery, and mentoring development teams while remaining actively involved in solution design and software development.
+
+Key Responsibilities
+
+Led the architecture, design, development, and successful delivery of BizNext Beyond ERP, an integrated enterprise platform supporting Web, Desktop, and Mobile applications.
+
+Directed complete ERP implementation life cycles, including requirement analysis, business process mapping, customization, development, deployment, training, and production support.
+
+Architected enterprise GST integrations, enabling seamless communication between GST Portal and custom business applications.
+
+Delivered scalable BizNext solutions covering Manufacturing, Inventory, Procurement, Finance, Sales, CRM, Quality Control, and Supply Chain Management.
+
+Designed secure microservices architecture using ASP.NET Core, React.js, and REST APIs, improving application scalability and maintainability.
+
+Developed reusable middleware components for enterprise data synchronization across ERP, finance, and inventory systems.
+
+Optimized enterprise database performance through indexing strategies, query tuning, and schema optimization using MySQL.
+
+Collaborated closely with CXOs, business stakeholders, and implementation teams to deliver technology solutions aligned with organizational objectives.
+
+Conducted architecture reviews, code reviews, sprint planning, technical estimations, and engineering mentoring.
+
+Achievements
+
+ERPNext implementation lifecycle
+
+Manufacturing ERP
+
+Inventory
+
+Procurement
+
+Finance
+
+Sales
+
+Production Planning
+
+Quality Control
+
+Customer workshops
+
+Requirement gathering
+
+Key Projects
+
+BizNext Beyond ERP
+
+GST Portal Integration Platform
+
+Production Planning System
+
+Finance & Accounting Automation
+
+Inventory Management Platform
+
+Procurement Management System
+
+Enterprise Reporting Dashboard
+
+Technology Stack
+
+ASP.NET Core • .NET Framework • React.js • JavaScript • REST APIs • MySQL • AWS • Git • Jira
+
+Tech Lead / Chief Technology Officer (CTO)
+
+Sahaj Infotech Private Limited | New Delhi, India
+
+October 2010 – December 2022
+
+Career Progression
+
+Senior Software Developer → Team Leader → .NET Lead → Tech Lead → Chief Technology Officer (CTO)
+
+Role Overview
+
+Provided strategic technology leadership for enterprise software products while remaining deeply involved in architecture, coding, solution design, customer consulting, project delivery, engineering management, and product innovation.
+
+Successfully led multiple engineering teams delivering enterprise software solutions across HRMS, Payroll, ERP, Manufacturing, Education, Accounting, CRM, and Business Automation domains.
+
+Leadership Responsibilities
+
+Defined enterprise technology roadmap aligned with business growth.
+
+Led architecture and development of multiple enterprise software products.
+
+Managed engineering teams across design, development, QA, deployment, and production support.
+
+Conducted customer requirement workshops and technical consulting sessions.
+
+Managed complete Software Development Life Cycle (SDLC).
+
+Mentored software engineers and technical leads.
+
+Introduced coding standards, architecture governance, and engineering best practices.
+
+Collaborated directly with CXOs, business leaders, and enterprise customers.
+
+Key Responsibilities
+
+Architected and delivered 7+ flagship enterprise software products spanning HRMS, Payroll, Manufacturing ERP, Accounting, School ERP, CRM, Inventory Management, and Business Automation.
+
+Designed scalable enterprise applications using ASP.NET MVC, ASP.NET Core, Python (Flask), Web API, JavaScript, and SQL Server.
+
+Developed customized SAP Business One Add-ons integrating Finance, Purchase, Sales, Inventory, and Reporting.
+
+Modernized legacy desktop solutions into cloud-enabled web platforms hosted on Microsoft Azure and Google Cloud Platform.
+
+Built reusable software frameworks and common libraries, significantly improving development productivity across projects.
+
+Optimized SQL Server performance using indexing, stored procedures, execution plans, and query optimization techniques.
+
+Designed secure enterprise authentication, authorization, and role-based access control systems.
+
+Led technical proposal preparation, effort estimation, architecture reviews, and solution presentations.
+
+Established engineering processes for code reviews, release management, defect tracking, and quality assurance.
+
+Achievements
+
+Team leadership
+
+Architecture ownership
+
+Product strategy
+
+Customer interaction
+
+Performance optimization
+
+Cloud migration
+
+SAP Business One customization
+
+CI/CD
+
+Technical hiring
+
+Mentoring
+
+Flagship Enterprise Products
+
+Online HRMS
+
+KPMG Payroll Management System
+
+Manufacturing ERP
+
+School ERP
+
+BusinessMate ERP
+
+Accounting & Finance Management System
+
+CRM Platform
+
+Inventory Management System
+
+SAP Business One Add-ons
+
+Technology Stack
+
+ASP.NET MVC • ASP.NET Core • Python (Flask) • C# • JavaScript • SQL Server • MySQL • Azure • Google Cloud Platform • SAP Business One • IIS • Git
+
+Software Developer
+
+Digisoft IT Solutions | New Delhi, India
+
+January 2008 – September 2010
+
+Key Responsibilities
+
+Developed Billing, Inventory Management, Distribution Management, Real Estate Management, and MLM applications using VB6, VB.NET, ASP.NET, and SQL Server.
+
+Participated in requirement analysis, application design, development, testing, deployment, and customer support.
+
+Designed business reports and database modules supporting finance, inventory, and sales operations.
+
+Optimized SQL Server database performance through query tuning and indexing.
+
+Built reusable software components and utilities, reducing development effort across multiple projects.
+
+MAJOR PROJECTS
+
+EDUCATION
+
+M.Tech – Data Science Engineering | BITS Pilani | 2024
+
+MBA – Information Technology |Sikkim Manipal University | 2011
+
+Master of Computer Applications (MCA) | Maharshi Dayanand University, Rohtak | 2007
+
+PROFESSIONAL CERTIFICATIONS
+
+Microsoft Certified Professional (Exam 70-563) – Designing & Developing Windows Applications
+
+Foundational Generative AI – iNeuron (2024)
+
+AWS Certification Series – iNeuron (2024)
+
+Machine Learning with Python – Jovian (2023)
+
+Deep Learning with PyTorch – Jovian (2023)
+
+KEY ACHIEVEMENTS
+
+18+ years of enterprise software engineering experience.
+
+12+ years in engineering leadership.
+
+15+ enterprise products delivered.
+
+50+ enterprise modules developed.
+
+25+ SAP/ERP/GST integrations delivered.
+
+AI-powered bookkeeping platform architect.
+
+Enterprise customers across 6+ industries.
+
+PROFESSIONAL PHILOSOPHY
+
+Passionate about building scalable enterprise software that solves real business problems. I believe in leading by example, combining strategic architecture with hands-on engineering, mentoring teams, and continuously learning emerging technologies in AI, cloud computing, and enterprise integration.
+
+DECLARATION
+
+I hereby declare that the above details furnished by me are true to the best of my knowledge.
+
+Place: New Delhi
+
+Date:
+
+Experience | 18+ Years in Enterprise Software Engineering
+
+Leadership | Led a team of 8–15 engineers across product development, ERP implementation, and enterprise integration. 
+Delivered 15+ enterprise software products.
+Successfully implemented 25+ ERP/SAP integration projects.
+Served enterprise customers across Retail, Manufacturing, Healthcare, HR, and Finance.
+
+Architecture | Enterprise Architecture • Microservices • Distributed Systems • REST APIs
+
+Full Stack | Python • FastAPI • React • Next.js • Node.js • ASP.NET Core
+
+Enterprise Integration | SAP • ERPNext • OData • REST APIs • IDoc • Middleware
+
+Cloud Platforms | AWS • Azure • Google Cloud Platform
+
+AI & Data | Generative AI • LLM Workflows • Machine Learning • Financial Automation
+
+Enterprise Products | 15+ Enterprise Applications Successfully Delivered
+
+Industries | Retail • Manufacturing • Healthcare • HRMS • Finance • Education
+
+Education | M.Tech (Data Science Engineering) – BITS Pilani
+
+Retail & E-Commerce | Healthcare & Medical | Manufacturing & Industrial | HR & Professional Services
+
+Nykaa | ASG Eye Hospital | Philips | PeopleStrong
+
+FabIndia | KARL STORZ | Halonix | KPMG
+
+Apparel Group | Birla Century | Spectrum
+
+EazyDiner | Smartivity | C3India
+
+Lenskart | SRM Enterprises
+
+Category | Technologies
+
+Programming Languages | Python, C#, JavaScript, TypeScript, SQL, VB.NET
+
+Backend Technologies | FastAPI, Flask, ASP.NET Core, ASP.NET MVC, Web API, Node.js, Express.js
+
+Frontend Technologies | React.js, Next.js, HTML5, CSS3, Bootstrap, Tailwind CSS
+
+Databases | PostgreSQL, MySQL, SQL Server, MongoDB
+
+Cloud Platforms | AWS, Microsoft Azure, Google Cloud Platform
+
+ERP & Enterprise | GST Integration, SAP REST APIs, MS 365 BC, SAP Business One, ERPNext
+
+DevOps & Tools | Git, Bitbucket, GitHub, Jira, CI/CD, IIS
+
+AI & Data Science | Generative AI, LLMs, Machine Learning, Deep Learning, PyTorch, TensorFlow
+
+Methodologies | Agile, Scrum, SDLC, OOP, Design Patterns, Code Reviews, Technical Documentation
+
+Project | Technologies
+
+AI Bookkeeping Platform | Python, FastAPI, React, AI, AWS
+
+BizNext Beyond ERP | ASP.NET Core, React, MySQL
+
+SAP Integration Platform | SAP REST, OData, ERPNext
+
+HRMS Platform | ASP.NET MVC, SQL Server
+
+Payroll System | ASP.NET, SQL Server
+
+Manufacturing ERP | .NET, SQL Server
+
+Inventory Management | ERPNext

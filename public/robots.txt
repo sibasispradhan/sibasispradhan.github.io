@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /.next/
+Disallow: /node_modules/
+
+Sitemap: https://sibasispradhan.github.io/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

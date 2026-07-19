@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+  <g font-family="Inter, Arial, Helvetica, sans-serif">
+    <text x="60" y="220" font-size="56" fill="#fff" font-weight="700">Sibasis Pradhan</text>
+    <text x="60" y="300" font-size="28" fill="#e6e6ff">Principal Engineer • Enterprise Architect</text>
+    <text x="60" y="380" font-size="20" fill="#dbeafe">Portfolio — sibasispradhan.github.io</text>
+  </g>
+</svg>
