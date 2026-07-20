@@ -81,30 +81,65 @@ export const metadata: Metadata = {
   description: profile.heroSummary,
 
   keywords: [
-    'Full Stack Tech Lead',
-    'Enterprise Solution Architect',
-    'AI Integration Specialist',
-    'ERP Integration',
-    'SAP Integration',
-    'FastAPI',
-    'Next.js',
-    'React.js',
-    'Cloud Architecture',
+    "Full Stack Tech Lead",
+    "Solution Architect",
+    "Node.js",
+    "Python",
+    "SQL",
+    "ERPNext",
+    "Frappe",
+    "React",
+    "Next.js",
+    "AI",
+    "AWS",
+    "Enterprise Software",
+    "System Design",
   ],
 
   authors: [{ name: profile.name }],
   creator: profile.name,
+  alternates: {
+    canonical: profile.siteUrl,
+  },
+
+  applicationName: profile.name,
+
+  category: "Technology",
+
+  referrer: "origin-when-cross-origin",
+
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
 
   metadataBase: new URL(profile.siteUrl),
 
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon.ico",
+      },
+      {
+        url: "/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
     ],
-    apple: "/apple-touch-icon.png",
+
     shortcut: "/favicon.ico",
+
+    apple: "/apple-touch-icon.png",
   },
 
   manifest: "/site.webmanifest",
@@ -114,23 +149,25 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: profile.siteUrl,
     siteName: profile.name,
-    title: `${profile.name} - ${profile.shortHeadline}`,
+    title: `${profile.name} | ${profile.shortHeadline}`,
     description: profile.heroSummary,
     images: [
       {
-        url: "/og-image.png",
+        url: `${profile.siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: profile.name,
+        alt: `${profile.name} | ${profile.shortHeadline}`,
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: `${profile.name} - ${profile.shortHeadline}`,
+    title: `${profile.name} | ${profile.shortHeadline}`,
     description: profile.heroSummary,
-    images: ["/og-image.png"],
+    images: [`${profile.siteUrl}/og-image.png`],
+    creator: `@${profile.twitter.handler}`,
+    site: `@${profile.twitter.handler}`,
   },
 
   robots: {
@@ -218,7 +255,7 @@ export default function RootLayout({
               '@type': 'Person',
               name: profile.name,
               url: profile.siteUrl,
-              sameAs: [profile.linkedin.url, profile.github.url],
+              sameAs: [profile.linkedin.url, profile.github.url, profile.twitter.url],
               jobTitle: profile.shortHeadline,
               description: profile.heroSummary,
               email: `mailto:${profile.email}`,

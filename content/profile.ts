@@ -2,7 +2,7 @@ export const profile = {
   name: 'Sibasis Pradhan',
   headline:
     'Full Stack Tech Lead | Enterprise Solution Architect | AI and ERP Integration Specialist',
-  shortHeadline: 'Full Stack Tech Lead and Solution Architect',
+  shortHeadline: 'Full Stack Tech Lead & Solution Architect',
   location: 'New Delhi, India',
   phone: '+91 9350490808',
   email: 'sibasis.pr@gmail.com',
@@ -15,8 +15,13 @@ export const profile = {
     label: 'github.com/sibasispradhan',
     url: 'https://github.com/sibasispradhan',
   },
+  twitter: {
+    label: 'x.com/mcasibasis',
+    url: 'https://x.com/mcasibasis',
+    handler: 'mcasibasis',
+  },
   heroSummary:
-    'Architecting enterprise-grade software across AI, ERP, finance, retail, manufacturing, healthcare, HRMS, supply chain, and cloud ecosystems.',
+    'Full Stack Tech Lead specializing in AI, ERPNext, Node.js, Python, SQL, cloud architecture, and enterprise software solutions.',
   summary: [
     'Results-driven full stack technology leader with 18+ years of experience architecting, designing, and delivering enterprise-grade software solutions across Artificial Intelligence, ERP, Finance, Retail, Manufacturing, Healthcare, HRMS, Supply Chain, and Cloud ecosystems.',
     'Proven expertise leading high-performing engineering teams while remaining hands-on across enterprise architecture, backend engineering, frontend development, cloud-native application development, DevOps, AI integration, and digital transformation initiatives.',

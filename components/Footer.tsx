@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mail, Share2, Code } from '@/components/icons'
+import { Mail, Share2, Code, MessageCircle } from '@/components/icons'
 import { profile } from '@/content/profile'
 
 export default function Footer() {
@@ -97,6 +97,15 @@ export default function Footer() {
               >
                 <Code size={20} />
               </a>
+              <a
+                href={profile.twitter.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter profile"
+                className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
+              >
+                <MessageCircle size={20} />
+              </a>
             </div>
             <p className="mt-4 text-sm text-slate-600 dark:text-slate-400">
               {profile.location}
@@ -109,9 +118,11 @@ export default function Footer() {
             <p className="text-slate-600 dark:text-slate-400 text-sm">
               &copy; {new Date().getFullYear()} {profile.name}. All rights reserved.
             </p>
+            {/*
             <p className="text-slate-600 dark:text-slate-400 text-sm">
               Built with Next.js. Deployed on GitHub Pages.
             </p>
+            */}
           </div>
         </div>
       </div>
