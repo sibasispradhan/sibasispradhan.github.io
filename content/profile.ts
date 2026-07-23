@@ -4,7 +4,7 @@ export const profile = {
     'Full Stack Tech Lead | Enterprise Solution Architect | AI and ERP Integration Specialist',
   shortHeadline: 'Full Stack Tech Lead & Solution Architect',
   location: 'New Delhi, India',
-  phone: '+91 9350490808',
+  phone: '+91 9716045559',
   email: 'sibasis.pr@gmail.com',
   siteUrl: 'https://sibasispradhan.github.io',
   linkedin: {
