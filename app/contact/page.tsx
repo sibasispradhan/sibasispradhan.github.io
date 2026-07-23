@@ -1,24 +1,64 @@
 'use client'
-
+import Turnstile from 'react-turnstile';
 import { useState } from 'react'
 import { Mail, Share2, Code, MessageCircle } from '@/components/icons'
 import { profile } from '@/content/profile'
+import { Send, Loader2 } from 'lucide-react'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: '',
+    company: '',
     message: '',
   })
 
-  const [submitted, setSubmitted] = useState(false)
+  //const [submitted, setSubmitted] = useState(false)
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false)
+  const [success, setSuccess] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
-    setFormData({ name: '', email: '', subject: '', message: '' })
-    setTimeout(() => setSubmitted(false), 3000)
+
+    if (!turnstileToken) {
+      alert("Please verify that you are not a robot.");
+      return;
+    }
+    const dataToSend = { ...formData, captchaToken: turnstileToken };
+    setLoading(true);
+
+    setLoading(true)
+    
+    // Simulate API call
+    try {
+      const API_URL = 'https://www.siyashakti.cloud'
+      const response = await fetch(`${API_URL}/api/contact/`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...formData, captchaToken: turnstileToken }),
+      });
+
+      if (response.ok) {
+        setSuccess(true);
+        setFormData({ name: '', email: '', company: '', message: '' });
+        setTurnstileToken(null);
+      } else {
+        const err = await response.json();
+        alert(err.detail || "Submission failed");
+      }
+    } catch (error) {
+      alert("Server error. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+    //await new Promise(resolve => setTimeout(resolve, 1500))
+    
+    setLoading(false)
+    setSuccess(true)
+
+    setFormData({ name: '', email: '', company: '', message: '' })
+    //setTimeout(() => setSubmitted(false), 3000)
   }
 
   return (
@@ -42,11 +82,23 @@ export default function Contact() {
                 Send me a Message
               </h2>
 
-              {submitted ? (
-                <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 p-6 rounded-lg">
-                  <p className="text-green-800 dark:text-green-200">
-                    Thanks for your message. I will get back to you soon.
+              {success ? (
+                <div className="text-center py-12">
+                  <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Send className="w-8 h-8 text-green-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                    Message Sent!
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Thank you for reaching out. We'll get back to you soon.
                   </p>
+                  <button
+                    onClick={() => setSuccess(false)}
+                    className="mt-6 btn-primary"
+                  >
+                    Send Another Message
+                  </button>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -89,9 +141,9 @@ export default function Contact() {
                     <input
                       type="text"
                       required
-                      value={formData.subject}
+                      value={formData.company}
                       onChange={(e) =>
-                        setFormData({ ...formData, subject: e.target.value })
+                        setFormData({ ...formData, company: e.target.value })
                       }
                       className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       placeholder="Subject"
@@ -113,12 +165,31 @@ export default function Contact() {
                       placeholder="Your message"
                     />
                   </div>
-
+                  <div className="flex justify-center mb-4">
+                    <Turnstile
+                        sitekey="0x4AAAAAADDw_rbAMD4-bN_j"
+                        onVerify={(token) => setTurnstileToken(token)} // This updates the state
+                        theme="auto"
+                    />
+                  </div>
                   <button
                     type="submit"
-                    className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
+                    disabled={loading || !turnstileToken} // Disable if loading OR no token
+                    className={`w-full btn-primary flex items-center justify-center ${
+                      (loading || !turnstileToken) ? 'opacity-50 cursor-not-allowed' : ''
+                    }`}
                   >
-                    Send Message
+                    {loading ? (
+                      <>
+                        <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                        Sending...
+                      </>
+                    ) : (
+                      <>
+                        <Send className="w-5 h-5 mr-2" />
+                        Send Message
+                      </>
+                    )}
                   </button>
                 </form>
               )}
