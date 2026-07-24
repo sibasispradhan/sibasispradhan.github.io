@@ -61,17 +61,22 @@ export default function Resume() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-slate-800 p-8 rounded-lg border border-slate-200 dark:border-slate-700 print:border-0 print:p-0">
-            <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
+          <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 print:border-0 print:p-0">
+            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
               Career Snapshot
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {profile.stats.map((stat) => (
-                <div key={stat.label} className="rounded-lg bg-blue-50 dark:bg-blue-900/20 p-4">
-                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                <div
+                  key={stat.label}
+                  className="rounded-lg bg-blue-50 dark:bg-blue-900/20 p-3"
+                >
+                  <div className="text-xl font-bold text-blue-600 dark:text-blue-400">
                     {stat.value}
                   </div>
-                  <p className="text-sm text-slate-700 dark:text-slate-300">
+
+                  <p className="text-xs text-slate-700 dark:text-slate-300">
                     {stat.label}
                   </p>
                 </div>
@@ -79,15 +84,16 @@ export default function Resume() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-slate-800 p-8 rounded-lg border border-slate-200 dark:border-slate-700 print:border-0 print:p-0">
-            <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
+          <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 print:border-0 print:p-0">
+            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
               Core Competencies
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
               {coreCompetencies.map((competency) => (
                 <span
                   key={competency}
-                  className="px-4 py-2 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded text-slate-900 dark:text-white text-sm font-medium"
+                  className="px-3 py-1.5 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded text-slate-900 dark:text-white text-xs font-medium"
                 >
                   {competency}
                 </span>
