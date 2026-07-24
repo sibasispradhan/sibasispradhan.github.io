@@ -209,6 +209,50 @@ export default function RootLayout({
             `,
           }}
         />
+        <script
+          id="jsonld-person"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: profile.name,
+              url: profile.siteUrl,
+              image: `${profile.siteUrl}/profile.png`,
+              sameAs: [
+                profile.linkedin.url,
+                profile.github.url,
+                profile.twitter.url,
+              ],
+              jobTitle: profile.shortHeadline,
+              description: profile.heroSummary,
+              email: `mailto:${profile.email}`,
+              telephone: profile.phone,
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "India",
+              },
+            }),
+          }}
+        />
+        <script
+          id="jsonld-website"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: profile.name,
+              url: profile.siteUrl,
+              description: profile.heroSummary,
+              inLanguage: "en",
+              publisher: {
+                "@type": "Person",
+                name: profile.name,
+              },
+            }),
+          }}
+        />
       </head>
       <body className="min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
         <a
@@ -246,52 +290,6 @@ export default function RootLayout({
             />
           </>
         )}
-        <head>
-          <script
-            id="jsonld-person"
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Person",
-                name: profile.name,
-                url: profile.siteUrl,
-                image: `${profile.siteUrl}/profile.png`,
-                sameAs: [
-                  profile.linkedin.url,
-                  profile.github.url,
-                  profile.twitter.url,
-                ],
-                jobTitle: profile.shortHeadline,
-                description: profile.heroSummary,
-                email: `mailto:${profile.email}`,
-                telephone: profile.phone,
-                address: {
-                  "@type": "PostalAddress",
-                  addressCountry: "India",
-                },
-              }),
-            }}
-          />
-          <script
-            id="jsonld-website"
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "WebSite",
-                name: profile.name,
-                url: profile.siteUrl,
-                description: profile.heroSummary,
-                inLanguage: "en",
-                publisher: {
-                  "@type": "Person",
-                  name: profile.name,
-                },
-              }),
-            }}
-          />
-        </head>
       </body>
     </html>
   )
